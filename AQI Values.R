@@ -27,3 +27,4 @@ mean_plot = barplot(databar, las=2, cex.names=.5) #Turning the area names around
 mean_plot ##checking to see what initial bar graph looks like
 
 mean_plot = barplot(databar, las=2, cex.names=.5, ylab ="Mean AQI Value") #Adding label to x-axis
+mean_plot
