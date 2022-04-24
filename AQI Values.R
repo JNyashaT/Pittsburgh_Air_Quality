@@ -23,3 +23,7 @@ databar = average_aqi$mean_index
 names(databar) = average_aqi$areas
 databar
 
+mean_plot = barplot(databar, las=2, cex.names=.5) #Turning the area names around since there are 15 neighborhoods to fit
+mean_plot ##checking to see what initial bar graph looks like
+
+mean_plot = barplot(databar, las=2, cex.names=.5, ylab ="Mean AQI Value") #Adding label to x-axis
